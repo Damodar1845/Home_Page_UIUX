@@ -1,4 +1,4 @@
-import imgNavigation from "../../DK_logo.png";
+import imgNavigation from "../assets/99016216df44dfa0277d77bfe444bf46d9b38b04.png";
 
 function Navigation1() {
   return (
