@@ -1,4 +1,4 @@
-import imgNavigation from "figma:asset/99016216df44dfa0277d77bfe444bf46d9b38b04.png";
+import imgNavigation from "../../DK_Logo.png";
 
 function Navigation1() {
   return (

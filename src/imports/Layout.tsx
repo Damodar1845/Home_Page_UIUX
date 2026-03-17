@@ -1,7 +1,7 @@
 import svgPaths from "./svg-hnmwy4o8tk";
-import imgImageDkLogo from "figma:asset/99016216df44dfa0277d77bfe444bf46d9b38b04.png";
+import imgImageDkLogo from "../../DK_Logo.png";
 import { Link } from "react-router";
-import resumeImage from "figma:asset/f090ab9667c82a31980f810861549ba4f8c7d90b.png";
+import resumeImage from "../../Resume.png";
 
 function Icon() {
   return (
