@@ -1,5 +1,5 @@
 import svgPaths from "./svg-hnmwy4o8tk";
-import imgImageDkLogo from "../../DK_Logo.png";
+import imgImageDkLogo from "../../DK_logo.png";
 import { Link } from "react-router";
 import resumeImage from "../../Resume.png";
 

@@ -1,4 +1,4 @@
-import imgNavigation from "../../DK_Logo.png";
+import imgNavigation from "../../DK_logo.png";
 
 function Navigation1() {
   return (
