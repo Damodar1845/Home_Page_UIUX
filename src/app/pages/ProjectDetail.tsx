@@ -1,6 +1,9 @@
 import { useParams, Link } from "react-router";
 import { getProjectById } from "../data/projects";
 import DigiLockerShowcase from "../components/ProjectShowcase/DigiLockerShowcase";
+import InsurancePredictorShowcase from "../components/ProjectShowcase/InsurancePredictorShowcase";
+import HotelManagementShowcase from "../components/ProjectShowcase/HotelManagementShowcase";
+import PresentationAnalyzerShowcase from "../components/ProjectShowcase/PresentationAnalyzerShowcase";
 
 export default function ProjectDetail() {
   const { projectId } = useParams<{ projectId: string }>();
@@ -199,6 +202,24 @@ export default function ProjectDetail() {
         {project.id === "digilocker" && (
           <div className="mb-12">
             <DigiLockerShowcase />
+          </div>
+        )}
+
+        {project.id === "insurance-predictor" && (
+          <div className="mb-12">
+            <InsurancePredictorShowcase />
+          </div>
+        )}
+
+        {project.id === "presentation-analyzer" && (
+          <div className="mb-12">
+            <PresentationAnalyzerShowcase />
+          </div>
+        )}
+
+        {project.id === "hotel-management" && (
+          <div className="mb-12">
+            <HotelManagementShowcase />
           </div>
         )}
 
